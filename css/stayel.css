@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* font-family: sans-serif; */
+    align-items: center;
+    height: 100vh;
+    background: #212121;
+}
+h1{
+    color: #212121;
+    font-size: 15em;
+} 
+
+h1 span{
+    display: table-cell;
+    animation: animatsiya 7s linear infinite;
+}
+
+h1 span:nth-child(1){
+    animation-delay:0s;
+}
+h1 span:nth-child(2){
+    animation-delay:1s;
+}
+h1 span:nth-child(3){
+    animation-delay:2s;
+}
+h1 span:nth-child(4){
+    animation-delay:3s; 
+}                           
+h1 span:nth-child(5){
+    animation-delay:4s;
+}
+h1 span:nth-child(6){
+    animation-delay:5s;
+}
+h1 span:nth-child(7){
+    animation-delay:6s;
+}
+
+@keyframes animatsiya {
+    0%,100%{
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #00b3ff,
+                        0 0 10px #00b3ff,
+                        0 0 20px #00b3ff,
+                        0 0 40px #00b3ff,
+                        0 0 800px #00b3ff,
+                        0 0 120px #00b3ff,
+                        0 0 180px #00b3ff,
+                        0 0 200px #00b3ff,
+                        0 0 3000px #00b3ff;                
+    }
+
+    5%,95%{
+        color: #1111;
+        filter:blur(0px);
+        text-shadow: none;
+    }
+}
+
+input{
+    margin-top: -500px;
+    
+}
+
+body{
+    background-color: rgb(5, 1, 32);
+    overflow: hidden;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+.fa-snowflake{
+    color: white;
+    position: absolute;
+    top: -20px;
+    animation: qorparcha 2s linear forwards;
+}
+
+@keyframes qorparcha {
+    to{
+        transform: translateY(105vh);
+    }
+}
