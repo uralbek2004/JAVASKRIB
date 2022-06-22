@@ -89,6 +89,9 @@ h1{
     top: -20px;
     animation: qorparcha 2s linear forwards;
 }
+span{
+    font-size: 80px;
+}
 
 @keyframes qorparcha {
     to{
