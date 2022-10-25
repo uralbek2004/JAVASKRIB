@@ -50,15 +50,15 @@ h1 span:nth-child(7){
     0%,100%{
         color: #fff;
         filter: blur(2px);
-        text-shadow: 0 0 10px #00b3ff,
-                        0 0 10px #00b3ff,
-                        0 0 20px #00b3ff,
-                        0 0 40px #00b3ff,
-                        0 0 800px #00b3ff,
-                        0 0 120px #00b3ff,
-                        0 0 180px #00b3ff,
-                        0 0 200px #00b3ff,
-                        0 0 3000px #00b3ff;                
+        text-shadow: 0 0 10px blue,
+                        0 0 10px blue,
+                        0 0 20px red,
+                        0 0 40px red,
+                        0 0 800px blue,
+                        0 0 120px red,
+                        0 0 180px red,
+                        0 0 200px red,
+                        0 0 3000px red;                
     }
 
     5%,95%{
@@ -97,4 +97,17 @@ span{
     to{
         transform: translateY(105vh);
     }
+}
+@media (max-width:1200px) and (min-width:199px){
+    .body{
+        width: 100px;
+        height: 100px;
+
+    }
+    .h1{
+        font-size: 12px
+        
+        ;
+    }
+    
 }
